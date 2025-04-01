@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "panda_util"
+version = "0.1"
+authors = [
+  { name="ColinThePanda", email="urboycolinthepanda@gmail.com" },
+]
+description = "A lightweight utility package"
+readme = "README.md"
+requires-python = ">=3.8"
+license = "MIT"
+license-files = ["LICENCE"]
+
+[project.urls]
+Homepage = "https://github.com/ColinThePanda/Panda_Util"
+Issues = "https://github.com/ColinThePanda/Panda_Util/issues"
